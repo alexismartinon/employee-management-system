@@ -1,58 +1,39 @@
-# 🧑‍💼 Employee Management System
+# 🧑‍💼 Employee Management System / Sistema de Gestión de Empleados
 
-## 📌 Description
-This is a Python project built using Object-Oriented Programming (OOP).  
-It allows managing employees through a console-based system.
+## 📌 Description / Descripción
 
-Current features:
-- View employees who attended
-- View employees who were absent
-- ROOT access with advanced menu
-- Search employee by ID
+**EN:**
+Console-based application built with Python using Object-Oriented Programming (OOP).
+It allows managing employees, tracking attendance, calculating salaries, and handling administrative actions with custom exceptions.
 
-## ⚙️ Technologies
-- Python 3
-- Object-Oriented Programming (OOP)
+**ES:**
+Aplicación en consola desarrollada en Python utilizando Programación Orientada a Objetos (POO).
+Permite gestionar empleados, controlar asistencia, calcular salarios y realizar acciones administrativas con manejo de excepciones personalizadas.
+---
+### 👤 General Access / Acceso general
 
-## 🚧 Features in progress
-The following features will be implemented in future versions:
-- Salary updates
-- Absence tracking
-- Add employees
-- Remove employees
+* View employees who attended / Ver empleados que asistieron
+* View employees who were absent / Ver empleados que faltaron
 
-## 🔄 Future improvements
-This project will continue evolving with commits, including:
-- Database integration
-- Better user interface
-- Stronger validations
+### 🔐 ROOT Access (admin123)
 
-# 🧑‍💼 Sistema de Gestión de Empleados
+* Search employee by ID / Buscar empleado por ID
+* View all employees / Ver todos los empleados
+* Calculate updated salaries / Calcular salario actualizado
+* Absence tracking with limit validation ❌ / Control de faltas con validación de límite
+* Add new employees / Agregar nuevos empleados
+* Remove employees / Eliminar empleados
+---
+## ⚙️ Technologies / Tecnologías
 
-## 📌 Descripción
-Este es un proyecto desarrollado en Python utilizando Programación Orientada a Objetos (POO).  
-Permite gestionar empleados dentro de una empresa mediante un sistema en consola.
+* Python 3
+* Object-Oriented Programming (OOP) / Programación Orientada a Objetos (POO)
+* Custom Exception Handling / Manejo de excepciones personalizadas
+---
+## ⚠️ Error Handling / Manejo de errores
+* `EmpleadoNoEncontrado`
+* `LimiteDeFaltasExcedido`
+---
+## 💼 Author / Autor
 
-Actualmente el sistema permite:
-- Ver empleados que asistieron
-- Ver empleados que faltaron
-- Acceso ROOT con menú avanzado
-- Buscar empleados por ID
-
-## ⚙️ Tecnologías
-- Python 3
-- Programación Orientada a Objetos (POO)
-
-## 🚧 Funcionalidades en desarrollo
-Las siguientes funciones serán implementadas en futuras versiones:
-- Actualización de salario
-- Registro de faltas
-- Agregar empleados
-- Eliminar empleados
-
-## 🔄 Futuras mejoras
-Este proyecto continuará evolucionando mediante commits, agregando:
-- Persistencia de datos (base de datos)
-- Interfaz más amigable
-- Validaciones más robustas
-
+Developed as a learning project focused on OOP, backend logic, and best practices in Python.
